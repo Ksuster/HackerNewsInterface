@@ -1,0 +1,105 @@
+.news-item-main-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #eeeeee;
+    flex-grow: 1;
+
+}
+.news-item-container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    background-color: #eeeeee;
+    margin-top: 10px;
+}
+
+.news-item-content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.news-item-title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.news-item-subtitle{
+    margin-top: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.news-item-link{
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.news-item-link > * {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+
+.news-item-score{
+
+}
+
+.news-item-author{
+
+}
+
+.news-item-date{
+
+}
+
+.news-item-comments-container{
+    width: 90%;
+    margin-top: 20px;
+}
+
+.comment-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.comment-header span {
+    margin-top: 2px;
+    align-self: center;
+}
+
+.news-item-comments-title{
+    font-size: 20px;
+}
+
+.comment-item {
+    border-left: 2px solid #ccc;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.comments-list{
+    margin-top: 20px;
+}
+
+.comment-text {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.comment-replies {
+    margin-left: 10px;
+}
